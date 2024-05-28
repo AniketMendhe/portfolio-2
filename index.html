@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aniket | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/fdc2d7dfdb.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Designer</p>
+                <h1>Hi, I'm <span>Aniket</span> Shankar Mendhe<br> From Nagpur,India</h1>
+            </div>
+        </div>
+
+    </div>
+    <!-- -------------------------------------ABOUT------------------------------- -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>My name is Aniket Shankar Mendhe, and I am a 23-year-old B.Tech student specializing in
+                        Information Technology. I hail from the vibrant city of Nagpur. With a strong foundation in IT,
+                        I am passionate about leveraging technology to solve real-world problems and drive innovation.
+                        My academic journey has equipped me with the technical skills and knowledge needed to excel in
+                        the dynamic field of Information Technology. I am eager to apply my expertise and contribute to
+                        impactful projects.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                            <li><span>Web Development</span><br> Web App Development</li>
+                            <li><span>App Development</span><br>Building Android apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>skills</span><br>html Css JavaScript NextApp ReactJs </li>
+                            <li><span>Hobby</span><br> Playng BGMI & Console Games</li>
+                            <li><span>Other Hobby</span><br>Modding Games & Little Bit Hacking </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2017 - 2018</span><br>10th passed Out With Percentage of 80% </li>
+                            <li><span>2019 - 2020</span><br> 12th passed Out with Percentage of 85% </li>
+                            <li><span>2021 - Current</span><br>Pursuing Be.Tech Information Technology At Nagpur
+                                University
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- ----------------------------------SERVICES--------------------------------------------- -->
+    <div id="services">
+        <div id="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+
+
+                    <p>Web design involves creating visually appealing and user-friendly websites. It includes layout,
+                        color schemes, typography, and graphics, ensuring the site is responsive and works well on all
+                        devices. Good web design focuses on easy navigation and a positive user experience (UX). Tools
+                        like HTML, CSS, and design software such as Adobe Photoshop are commonly used.</p>
+
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX Design</h2>
+
+
+                    <p>UI/UX design creates visually appealing and user-friendly interfaces for websites and apps. UI
+                        design focuses on layout and visuals like buttons and icons, while UX design ensures usability
+                        and a smooth user experience. It involves research, wireframing, prototyping, and testing. Tools
+                        like Sketch, Figma, and Adobe XD are commonly used.</p>
+
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Design</h2>
+
+
+                    <p>App design involves creating visually appealing and user-friendly interfaces for mobile
+                        applications. It includes both UI design, focusing on layout and visuals like buttons and icons,
+                        and UX design, ensuring the app is easy and enjoyable to use. This process involves research,
+                        wireframing, prototyping, and testing. Common tools used in app design are Sketch, Figma, and
+                        Adobe XD</p>
+
+                    <a href="#">Learn more</a>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- -------------------------------------------------portfolio---------------------------------------------------------------------- -->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>A social media app lets users create profiles, share content, and connect with others.
+                            Features include news feeds, messaging, and notifications. Examples are Facebook and
+                            Instagram.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>A music app allows users to stream, download, and organize music. Features include playlists,
+                            recommendations, and offline listening. Examples are Spotify and Apple Music.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png">
+                    <div class="layer">
+                        <h3>Online Shopping App</h3>
+                        <p>An online shopping app lets users buy products, track orders, and access customer support
+                            from their phones. Examples are Amazon and eBay.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <a href="#" class="btn">See more</a>
+
+        </div>
+
+    </div>
+
+
+    <!-- ------------------------------------contact----------------------------------- -->
+
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> loser.dev891@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i> +91 8459152185</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter-square"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="images/My CV.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright © 2022 All rights reserved | Designed by <i class="fa-solid fa-heart"></i> loser.dev </p>
+            
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+
+
+        }
+
+    </script>
+
+    <!-- ---------------------------------Small screens------------------------------------- -->
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+
+    <!-- -----------------------------------contact form---------------------------------- -->
+
+   
+      <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzOnB-zESlh7Xo9OIunVVsLmZnoynQ78aOkiFyxvC2E3ObZlEo8edBSSHmmDcOV3Nb7/exec'
+        const form = document.forms['submit-to-google-sheet']
+
+        const msg = document.getElementById("msg")
+
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+
+</html>
